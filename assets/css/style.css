@@ -1,0 +1,577 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: "Rubik", sans-serif; }
+
+img {
+  width: 100%; }
+
+video {
+  width: 100%; }
+
+.site-box {
+  width: 1690px;
+  margin: auto; }
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.navbar {
+  height: 160px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between; }
+  .navbar .left-navbar {
+    margin-top: 60px; }
+    .navbar .left-navbar h1 {
+      font-size: 37px;
+      cursor: pointer; }
+  .navbar .right-navbar {
+    margin-top: 60px; }
+    .navbar .right-navbar ul {
+      display: flex; }
+      .navbar .right-navbar ul li a {
+        font-size: 26px;
+        margin-left: 50px; }
+        .navbar .right-navbar ul li a:hover {
+          border-bottom: 2px solid black;
+          cursor: pointer; }
+      .navbar .right-navbar ul li .navbar-button {
+        background: black;
+        font-size: 19px;
+        color: white;
+        height: 54px;
+        width: 192px;
+        padding: 16px 25px;
+        border: 2px solid #ffffff;
+        border-radius: 100px;
+        transition: all 0.5s ease; }
+        .navbar .right-navbar ul li .navbar-button:hover {
+          background-color: #6fffe9;
+          color: black;
+          border-bottom: none; }
+    .navbar .right-navbar a .ri-menu-4-line {
+      font-size: 30px;
+      width: 48px;
+      height: 48px;
+      display: none; }
+
+.hero-section .hero-text {
+  padding-top: 150px;
+  padding-bottom: 100px; }
+  .hero-section .hero-text h1 {
+    font-size: 85px;
+    font-weight: 400;
+    padding-right: 300px; }
+.hero-section .hero-brands ul {
+  display: flex;
+  justify-content: space-around; }
+  .hero-section .hero-brands ul li img {
+    width: 380px;
+    height: 180px; }
+.hero-section .hero-para p {
+  width: 83%;
+  margin: auto;
+  font-size: 64px;
+  text-align: center; }
+.hero-section .hero-button {
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 200px; }
+  .hero-section .hero-button h2 {
+    background: black;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    height: 100px;
+    width: 330px;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    transition: all 0.5s ease;
+    margin: auto; }
+    .hero-section .hero-button h2:hover {
+      background-color: #6fffe9;
+      color: black;
+      cursor: pointer; }
+
+.work h3 {
+  font-size: 44px;
+  font-weight: 400;
+  margin-bottom: 20px; }
+.work p {
+  font-size: 44px;
+  font-weight: 400;
+  max-width: 1200px;
+  line-height: 50px;
+  padding-bottom: 50px; }
+.work .work-button {
+  padding-bottom: 200px; }
+  .work .work-button h2 {
+    background: black;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    height: 100px;
+    width: 330px;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    transition: all 0.5s ease; }
+    .work .work-button h2:hover {
+      background-color: #6fffe9;
+      color: black;
+      cursor: pointer; }
+.work .eone-section {
+  width: 80%; }
+  .work .eone-section .eone-info h4 {
+    font-size: 46px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid white; }
+    .work .eone-section .eone-info h4:hover {
+      border-bottom: 2px solid black;
+      width: 110px;
+      cursor: pointer; }
+  .work .eone-section .eone-info p {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px; }
+  .work .eone-section .eone-info .buttons {
+    padding-bottom: 200px; }
+    .work .eone-section .eone-info .buttons ul {
+      display: flex; }
+      .work .eone-section .eone-info .buttons ul li {
+        margin-right: 20px; }
+        .work .eone-section .eone-info .buttons ul li a {
+          font-size: 18px;
+          font-weight: 400;
+          padding: 7px;
+          padding-left: 10px;
+          padding-right: 10px;
+          border: 1px solid grey;
+          border-radius: 40px; }
+.work .dual-section-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px; }
+  .work .dual-section-1 .pilot-section {
+    width: 90%; }
+    .work .dual-section-1 .pilot-section .pilot-info h4 {
+      font-size: 46px;
+      font-weight: 400;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      border-bottom: 2px solid white; }
+      .work .dual-section-1 .pilot-section .pilot-info h4:hover {
+        border-bottom: 2px solid black;
+        width: 110px;
+        cursor: pointer; }
+    .work .dual-section-1 .pilot-section .pilot-info p {
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 40px; }
+    .work .dual-section-1 .pilot-section .pilot-info .buttons {
+      padding-bottom: 200px; }
+      .work .dual-section-1 .pilot-section .pilot-info .buttons ul {
+        display: flex; }
+        .work .dual-section-1 .pilot-section .pilot-info .buttons ul li {
+          margin-right: 20px; }
+          .work .dual-section-1 .pilot-section .pilot-info .buttons ul li a {
+            font-size: 18px;
+            font-weight: 400;
+            padding: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid grey;
+            border-radius: 40px; }
+  .work .dual-section-1 .enode-section {
+    width: 100%; }
+    .work .dual-section-1 .enode-section .enode-info h4 {
+      font-size: 46px;
+      font-weight: 400;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      border-bottom: 2px solid white; }
+      .work .dual-section-1 .enode-section .enode-info h4:hover {
+        border-bottom: 2px solid black;
+        width: 110px;
+        cursor: pointer; }
+    .work .dual-section-1 .enode-section .enode-info p {
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 40px; }
+    .work .dual-section-1 .enode-section .enode-info .buttons {
+      padding-bottom: 200px; }
+      .work .dual-section-1 .enode-section .enode-info .buttons ul {
+        display: flex; }
+        .work .dual-section-1 .enode-section .enode-info .buttons ul li {
+          margin-right: 20px; }
+          .work .dual-section-1 .enode-section .enode-info .buttons ul li a {
+            font-size: 18px;
+            font-weight: 400;
+            padding: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid grey;
+            border-radius: 40px; }
+.work .thoughtspot-section {
+  margin-left: 340px;
+  width: 80%; }
+  .work .thoughtspot-section .thoughtspot-info h4 {
+    font-size: 46px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid white; }
+    .work .thoughtspot-section .thoughtspot-info h4:hover {
+      border-bottom: 2px solid black;
+      width: 110px;
+      cursor: pointer; }
+  .work .thoughtspot-section .thoughtspot-info p {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px; }
+  .work .thoughtspot-section .thoughtspot-info .buttons {
+    padding-bottom: 200px; }
+    .work .thoughtspot-section .thoughtspot-info .buttons ul {
+      display: flex; }
+      .work .thoughtspot-section .thoughtspot-info .buttons ul li {
+        margin-right: 20px; }
+        .work .thoughtspot-section .thoughtspot-info .buttons ul li a {
+          font-size: 18px;
+          font-weight: 400;
+          padding: 7px;
+          padding-left: 10px;
+          padding-right: 10px;
+          border: 1px solid grey;
+          border-radius: 40px; }
+.work .dual-section-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px; }
+  .work .dual-section-2 .creatd-section {
+    width: 90%; }
+    .work .dual-section-2 .creatd-section .creatd-info h4 {
+      font-size: 46px;
+      font-weight: 400;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      border-bottom: 2px solid white; }
+      .work .dual-section-2 .creatd-section .creatd-info h4:hover {
+        border-bottom: 2px solid black;
+        width: 110px;
+        cursor: pointer; }
+    .work .dual-section-2 .creatd-section .creatd-info p {
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 40px; }
+    .work .dual-section-2 .creatd-section .creatd-info .buttons {
+      padding-bottom: 200px; }
+      .work .dual-section-2 .creatd-section .creatd-info .buttons ul {
+        display: flex; }
+        .work .dual-section-2 .creatd-section .creatd-info .buttons ul li {
+          margin-right: 20px; }
+          .work .dual-section-2 .creatd-section .creatd-info .buttons ul li a {
+            font-size: 18px;
+            font-weight: 400;
+            padding: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid grey;
+            border-radius: 40px; }
+  .work .dual-section-2 .crisp-section {
+    width: 100%; }
+    .work .dual-section-2 .crisp-section .crisp-info h4 {
+      font-size: 46px;
+      font-weight: 400;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      border-bottom: 2px solid white; }
+      .work .dual-section-2 .crisp-section .crisp-info h4:hover {
+        border-bottom: 2px solid black;
+        width: 110px;
+        cursor: pointer; }
+    .work .dual-section-2 .crisp-section .crisp-info p {
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 40px; }
+    .work .dual-section-2 .crisp-section .crisp-info .buttons {
+      padding-bottom: 200px; }
+      .work .dual-section-2 .crisp-section .crisp-info .buttons ul {
+        display: flex; }
+        .work .dual-section-2 .crisp-section .crisp-info .buttons ul li {
+          margin-right: 20px; }
+          .work .dual-section-2 .crisp-section .crisp-info .buttons ul li a {
+            font-size: 18px;
+            font-weight: 400;
+            padding: 7px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solid grey;
+            border-radius: 40px; }
+
+.approuch-article-parrent {
+  background-color: black; }
+  .approuch-article-parrent .approuch-section h2 {
+    color: white;
+    font-size: 44px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 150px; }
+  .approuch-article-parrent .approuch-section p {
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 30px; }
+  .approuch-article-parrent .approuch-section .approuch-video-info {
+    display: flex;
+    gap: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px; }
+    .approuch-article-parrent .approuch-section .approuch-video-info video {
+      width: 50%; }
+    .approuch-article-parrent .approuch-section .approuch-video-info .approuch-info {
+      width: 100%;
+      padding-top: 20px; }
+      .approuch-article-parrent .approuch-section .approuch-video-info .approuch-info p {
+        font-size: 30px;
+        text-align: left;
+        line-height: 40px;
+        max-width: 80%;
+        margin: auto; }
+      .approuch-article-parrent .approuch-section .approuch-video-info .approuch-info .approuch-button {
+        margin-top: 60px;
+        margin-left: 70px; }
+        .approuch-article-parrent .approuch-section .approuch-video-info .approuch-info .approuch-button h2 {
+          background: black;
+          font-size: 32px;
+          font-weight: 400;
+          color: white;
+          height: 100px;
+          width: 330px;
+          text-align: center;
+          padding: 30px 30px 30px 30px;
+          border: 2px solid #ffffff;
+          border-radius: 100px;
+          transition: all 0.5s ease;
+          background-color: white;
+          color: black;
+          border: none;
+          transition: all .2s ease-in; }
+          .approuch-article-parrent .approuch-section .approuch-video-info .approuch-info .approuch-button h2:hover {
+            background-color: #6fffe9;
+            color: black;
+            cursor: pointer; }
+  .approuch-article-parrent .articles-section h1 {
+    font-size: 95px;
+    font-weight: 400;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px; }
+  .approuch-article-parrent .articles-section p {
+    font-size: 42px;
+    line-height: 50px;
+    color: white;
+    max-width: 1200px;
+    padding-top: 150px;
+    padding-bottom: 70px; }
+  .approuch-article-parrent .articles-section .article-button {
+    padding-bottom: 250px; }
+    .approuch-article-parrent .articles-section .article-button h2 {
+      background: black;
+      font-size: 32px;
+      font-weight: 400;
+      color: white;
+      height: 100px;
+      width: 330px;
+      text-align: center;
+      padding: 30px 30px 30px 30px;
+      border: 2px solid #ffffff;
+      border-radius: 100px;
+      transition: all 0.5s ease;
+      background-color: white;
+      color: black;
+      border: none;
+      transition: all .2s ease-in; }
+      .approuch-article-parrent .articles-section .article-button h2:hover {
+        background-color: #6fffe9;
+        color: black;
+        cursor: pointer; }
+  .approuch-article-parrent ul {
+    display: flex;
+    gap: 50px; }
+    .approuch-article-parrent ul .ux-strategy {
+      cursor: pointer; }
+      .approuch-article-parrent ul .ux-strategy h5 {
+        font-size: 22px;
+        color: white;
+        font-weight: 400;
+        margin-bottom: 30px;
+        margin-top: 15px; }
+      .approuch-article-parrent ul .ux-strategy p {
+        font-size: 45px;
+        color: white;
+        padding-bottom: 0px;
+        padding-top: 0px; }
+        .approuch-article-parrent ul .ux-strategy p:hover {
+          text-decoration: underline;
+          transition: all .2s ease-in-out; }
+      .approuch-article-parrent ul .ux-strategy .sdv-button {
+        margin-top: 40px;
+        margin-left: 20px; }
+        .approuch-article-parrent ul .ux-strategy .sdv-button h2 {
+          color: white;
+          font-size: 18px;
+          font-weight: 300;
+          border: 1px solid #3b3b3b;
+          border-radius: 30px;
+          padding: 10px;
+          width: 80px;
+          cursor: pointer; }
+    .approuch-article-parrent ul .Design {
+      cursor: pointer; }
+      .approuch-article-parrent ul .Design img {
+        width: 530px; }
+      .approuch-article-parrent ul .Design h5 {
+        font-size: 22px;
+        color: white;
+        font-weight: 400;
+        margin-bottom: 30px;
+        margin-top: 15px; }
+      .approuch-article-parrent ul .Design p {
+        font-size: 45px;
+        color: white;
+        padding-bottom: 0px;
+        padding-top: 0px; }
+        .approuch-article-parrent ul .Design p:hover {
+          text-decoration: underline;
+          transition: all .2s ease-in-out; }
+      .approuch-article-parrent ul .Design .sdv-button {
+        margin-top: 40px;
+        margin-left: 20px; }
+        .approuch-article-parrent ul .Design .sdv-button h2 {
+          color: white;
+          font-size: 18px;
+          font-weight: 300;
+          border: 1px solid #3b3b3b;
+          border-radius: 30px;
+          padding: 10px;
+          width: 80px;
+          cursor: pointer; }
+      .approuch-article-parrent ul .Design .work-button h2 {
+        padding-left: 15px; }
+    .approuch-article-parrent ul .value-services {
+      cursor: pointer; }
+      .approuch-article-parrent ul .value-services h5 {
+        font-size: 22px;
+        color: white;
+        font-weight: 400;
+        margin-bottom: 30px;
+        margin-top: 15px; }
+      .approuch-article-parrent ul .value-services p {
+        font-size: 45px;
+        color: white;
+        padding-bottom: 0px;
+        padding-top: 0px; }
+        .approuch-article-parrent ul .value-services p:hover {
+          text-decoration: underline;
+          transition: all .2s ease-in-out; }
+      .approuch-article-parrent ul .value-services .sdv-button {
+        margin-top: 40px;
+        margin-left: 20px; }
+        .approuch-article-parrent ul .value-services .sdv-button h2 {
+          color: white;
+          font-size: 18px;
+          font-weight: 300;
+          border: 1px solid #3b3b3b;
+          border-radius: 30px;
+          padding: 10px;
+          width: 80px;
+          cursor: pointer; }
+
+.footer-info h2 {
+  font-size: 44px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 150px; }
+.footer-info p {
+  font-size: 90px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 30px;
+  max-width: 1500px;
+  margin: auto; }
+.footer-info .footer-button {
+  padding-top: 60px; }
+  .footer-info .footer-button h2 {
+    background: black;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    height: 100px;
+    width: 330px;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    transition: all 0.5s ease;
+    margin: auto; }
+    .footer-info .footer-button h2:hover {
+      background-color: #6fffe9;
+      color: black;
+      cursor: pointer; }
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 150px;
+  padding-top: 250px; }
+  .footer-links .footer-logo-section h1 {
+    font-size: 40px;
+    margin-bottom: 30px; }
+  .footer-links .footer-logo-section span {
+    font-size: 44px;
+    font-weight: 400; }
+  .footer-links .footer-links-section {
+    display: flex;
+    justify-content: space-around;
+    width: 50%; }
+    .footer-links .footer-links-section ul .first-li a, .footer-links .footer-links-section ul .second-li a, .footer-links .footer-links-section ul .third-li a {
+      font-weight: 600; }
+    .footer-links .footer-links-section ul li {
+      margin-bottom: 20px; }
+      .footer-links .footer-links-section ul li .unique-item {
+        border-bottom: 2px solid black; }
+      .footer-links .footer-links-section ul li a {
+        font-size: 26px;
+        font-weight: 400;
+        transition: all .0s ease-in; }
+        .footer-links .footer-links-section ul li a:hover {
+          border-bottom: 2px solid black;
+          cursor: pointer; }
+
+.credits {
+  padding-bottom: 50px;
+  display: flex; }
+  .credits .credit-1 {
+    font-size: 19px;
+    cursor: pointer; }
+  .credits .credit-2 {
+    font-size: 19px;
+    margin-left: 30px; }
+    .credits .credit-2:hover {
+      text-decoration: underline;
+      cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

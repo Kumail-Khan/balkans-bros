@@ -1,0 +1,1056 @@
+@media only screen and (max-width: 1550px ){
+  
+
+    .navbar{
+        width: 95%;
+        margin: auto;
+    }
+
+    .hero-text, .hero-brands, .hero-para, .hero-button, .work,  .approuch-section, .articles-section, .footer-info, .footer-links {
+        width: 95%;
+    }
+
+    
+    
+
+}
+
+
+@media only screen and (max-width: 1450px ){
+  
+
+    .hero-section{
+        .hero-brands{   
+            ul{
+                li{
+                    img{
+                        width: 340px;
+                        height: 140px;
+                    }                
+                }
+            }
+        }
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1400px ){
+  
+
+    .navbar{
+        width: 95%;
+        margin: auto;
+    }
+
+    .hero-section{
+        .hero-text{
+        
+            h1{
+                font-size: 65px;
+                padding-right: 100px;
+            }
+        }
+
+        .hero-brands{
+            ul{
+                li{
+                    img{
+                        width: 320px;
+                        height: 120px;
+                    }                
+                }
+            }
+        }
+
+        .hero-para{
+            p{
+                font-size: 50px;
+            }
+        }
+        
+    }
+
+    .work{
+
+        p{
+            font-size: 35px;            
+        }
+
+        .thoughtspot-section{
+            margin-left: 250px;
+            .thoughtspot-info{
+                p{
+                    width: 800px;
+                }
+            }
+        }
+
+
+        .eone-section, .thoughtspot-section{
+            .eone-info, .thoughtspot-info{
+                h4{
+                    font-size: 36px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                }
+                .buttons{
+                    ul{
+                        li{
+                            margin-right: 10px;
+                            a{
+                                font-size: 16px;
+                                padding: 5px;
+                                padding-left: 8px;
+                                padding-right: 8px;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .dual-section-1, .dual-section-2{
+            .pilot-section, .enode-section, .creatd-section, .crisp-section{
+                .pilot-info, .enode-info, .creatd-info, .crisp-info{
+                    h4{
+                        font-size: 36px;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        font-size: 25px;
+                        margin-bottom: 10px;
+                    }
+                    .buttons{
+                        ul{
+                            li{
+                                margin-right: 10px;
+                                a{
+                                    font-size: 16px;
+                                    padding: 5px;
+                                    padding-left: 8px;
+                                    padding-right: 8px;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .approuch-article-parrent{
+        .approuch-section{
+            h2{
+                font-size: 40px;
+            }
+            p{
+                font-size: 70px;
+            }
+            .approuch-video-info{
+                .approuch-info{
+                    p{
+                        font-size: 20px;
+                        line-height: 30px;
+                        max-width: 90%;
+                    }
+                    .approuch-button{
+                       h2{
+                        background-color: white;
+                        color: black;
+                        font-size: 28px;
+                        height: 80px;
+                        width: 250px;
+                        padding:22px 22px 22px 22px;
+                       }
+                    }
+                }
+            }
+        }
+
+        .articles-section{
+            h1{
+                font-size: 65px;
+            }
+            p{
+                font-size: 35px;
+            }
+            ul{
+                .Design{
+                    img{
+                        width: 400px;
+                    }
+                    p{
+                        font-size: 35px ;
+                    }
+                    
+                }
+                .ux-strategy,  .value-services{
+                    p{
+                        font-size: 35px ;
+                    }
+                }
+            }
+        }
+
+    }
+   
+    .footer-info{
+        h2{
+            font-size: 38px;
+        }
+        p{
+            font-size: 60px;
+        }
+    }
+
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 1250px ){
+  
+
+    .navbar{
+        .right-navbar{
+            ul{
+                li{
+                    a{
+                        font-size: 23px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 1100px ){
+
+    .navbar{
+        .left-navbar{
+            h1{
+                font-size: 28px;
+            }
+        }
+        .right-navbar{
+            ul{
+               li{
+                a{
+                    font-size: 19px;
+                }
+                .navbar-button{
+                    font-size: 16px;
+                    
+                    padding: 14px 15px;
+                }
+               }
+            }
+        }
+    }
+  
+    
+    .hero-section{
+        .hero-text{
+        
+            h1{
+                font-size: 45px;
+                padding-right: 50px;
+            }
+        }
+
+        .hero-brands{
+            ul{
+                flex-wrap: wrap;
+                li{
+                    img{
+                        width: 320px;
+                        height: 120px;
+                    }                
+                }
+            }
+        }
+
+        .hero-para{
+            p{
+                font-size: 40px;
+            }
+        }
+        
+    }
+
+
+    .work{
+
+        p{
+            font-size: 28px;
+            line-height: 38px;
+            margin-right: 50px;            
+        }
+
+        .work-button{
+            h2{
+                font-size:28px;
+                height: 90px;
+                width: 280px;
+                padding-top:25px;
+            }
+        }
+
+        .thoughtspot-section{
+            margin-left: 180px;
+            .thoughtspot-info{
+                p{
+                    width: 600px;
+                }
+            }
+        }
+
+
+        .eone-section, .thoughtspot-section{
+            .eone-info, .thoughtspot-info{
+                .buttons{
+                    padding-bottom: 150px;
+                    ul{
+                        flex-wrap: wrap;
+                        gap: 20px;
+                        li{
+                            margin-right: 00px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .dual-section-1, .dual-section-2{
+            gap: 50px;
+            .pilot-section, .enode-section, .creatd-section, .crisp-section{
+                .pilot-info, .enode-info, .creatd-info, .crisp-info{
+                    .buttons{
+                        padding-bottom: 150px;  
+                        ul{
+                            flex-wrap: wrap;
+                            gap: 20px;
+                            li{
+                                margin-right: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .approuch-article-parrent{
+        .approuch-section{
+            h2{
+                font-size: 35px;
+            }
+            p{
+                font-size: 70px;
+            }
+            .approuch-video-info{
+                .approuch-info{
+                    p{
+                        font-size: 20px;
+                        line-height: 30px;
+                        max-width: 90%;
+                    }
+                    .approuch-button{
+                       h2{
+                        background-color: white;
+                        color: black;
+                        font-size: 28px;
+                        height: 80px;
+                        width: 250px;
+                        padding:22px 22px 22px 22px;
+                       }
+                    }
+                }
+            }
+        }
+
+        .articles-section{
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 35px;
+            }
+           
+            .article-button{
+               
+               h2{
+                font-size: 28px;
+                height: 80px;
+                width: 250px;
+                padding:22px 22px 22px 22px;
+               }
+            }
+               
+            ul{
+                flex-wrap: wrap;
+                .Design{
+                    padding: 100px;
+                    padding-bottom: 0px;
+                    img{
+                        width: 100%;
+                    }   
+                }
+                .ux-strategy,  .value-services{
+                    padding: 100px;
+                    padding-bottom: 0px;
+                }
+            }
+        }
+
+    }
+
+    .footer-links{
+        display: inline;
+        .footer-logo-section{
+            padding: 50px;
+            padding-top: 200px;
+        }
+
+        .footer-links-section{
+            padding: 50px;
+            gap: 100px;
+        }
+    }
+
+    .credits{
+        padding-left: 50px;
+    }
+
+}
+
+
+@media only screen and (max-width: 900px ){
+  
+    .navbar{
+        .left-navbar{
+            h1{
+                font-size: 25px;
+            }
+        }
+        .right-navbar{
+            
+            ul{
+                display: none;
+            }
+            a{
+                .ri-menu-4-line{
+                    display: block;
+                }
+            }
+        }
+    }
+
+
+
+    .approuch-article-parrent{
+        .approuch-section{
+            h2{
+                font-size: 35px;
+            }
+            p{
+                font-size: 50px;
+            }
+            .approuch-video-info{
+                flex-wrap: wrap;
+                video{
+                    width: 90%;
+                    margin: auto;
+                }
+                .approuch-info{
+                    p{
+                        font-size: 20px;
+                        line-height: 30px;
+                        max-width: 90%;
+                    }
+                    .approuch-button{
+                       h2{
+                        background-color: white;
+                        color: black;
+                        font-size: 28px;
+                        height: 80px;
+                        width: 250px;
+                        padding:22px 22px 22px 22px;
+                       }
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+
+@media only screen and (max-width: 700px ){
+    
+    .navbar{
+        .left-navbar{
+            h1{
+                font-size: 22px;
+            }
+        }
+    }
+
+    .hero-section{
+        .hero-text{
+            padding-top: 50px;
+            h1{
+                font-size: 40px;
+                padding-right: 0;
+                padding-left: 20px;
+            }
+        }
+
+        .hero-brands{
+            padding: 50px 0px;
+            ul{
+                li{
+                    img{
+                        width: 260px;
+                        height: 120px;
+                    }                
+                }
+            }
+        }
+
+        .hero-para{
+            p{
+                font-size: 28px;
+            }
+        }
+
+        .hero-button{
+            padding-bottom: 100px;
+            h2{
+                font-size: 22px;
+                 height: 80px;
+                 width: 250px;
+                padding-top:25px;
+            }
+        }
+        
+    }
+
+    .work{
+
+        h3{
+            font-size: 28px;
+            padding-left: 20px;
+            padding-bottom: 60px;
+        }
+
+        p{
+            font-size: 26px;
+            padding-left: 20px;
+            padding-top: 50px;
+        }
+
+        .work-button{
+            padding-left: 20px;
+            padding-bottom: 100px;
+            h2{
+                font-size: 18px;
+                 height: 80px;
+                 width: 210px;
+            }
+        }
+
+        .thoughtspot-section{
+            margin-left: 0px;
+        }
+
+
+        .eone-section, .thoughtspot-section{
+            width: 100%;
+            padding: 20px;
+            .eone-info, .thoughtspot-info{
+                h4{
+                    margin-bottom: 10px;
+                }
+                p{
+                    padding: 10px 0px;
+                    padding-bottom: 10px;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+                .buttons{
+                    padding-bottom: 50px;
+                }
+            }
+        }
+
+        .dual-section-1, .dual-section-2{
+            gap: 50px;
+            display: inline;
+            .pilot-section, .enode-section, .creatd-section, .crisp-section{
+                width: 100%;
+                padding: 20px;
+                .pilot-info, .enode-info, .creatd-info, .crisp-info{
+                    h4{
+                        margin-bottom: 10px;
+                    }
+                    p{
+                        padding: 10px 0px;
+                        padding-bottom: 10px;
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+                    .buttons{
+                        padding-bottom: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    .approuch-article-parrent{
+            .approuch-section{
+                h2{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 45px;
+                }
+
+                
+                .approuch-video-info{
+                    gap: 20px;
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                        .approuch-info{
+                            .approuch-button{
+                                margin-left: 20px;
+                                margin-top: 40px;
+                                h2{
+                                    font-size: 18px;
+                                     height: 65px;
+                                     width: 210px;
+                                     
+                                    }
+                                }    
+                        }
+                    }
+                }
+           
+
+        .articles-section{
+            h1{
+                font-size:40px;
+                padding-left: 20px;
+                padding-bottom: 50px;
+            }
+            p{
+                font-size: 26px;
+                padding-top: 60px;
+                line-height: 30px;
+                padding-left: 20px;
+                padding-bottom: 50px;
+            }
+           
+            .article-button{
+               padding-bottom: 100px;
+            }
+               
+            ul{
+                flex-wrap: wrap;
+                .Design{
+                    padding: 30px;
+                    padding-bottom: 0px;  
+                    h5{
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        font-size: 18px;
+                        padding-left: 0;
+                    }
+                    .sdv-button{
+                        margin-top: 20px;
+                        margin-left: 0;
+                    }
+                }
+                .ux-strategy,  .value-services{
+                    padding: 30px;
+                    padding-bottom: 0px;
+                    h5{
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        font-size: 18px;
+                        padding-left: 0;
+                    }
+                    .sdv-button{
+                        margin-top: 20px;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+
+    }
+    
+    .footer{
+        .footer-info{
+            h2{
+                font-size: 26px;
+            }
+            p{
+                font-size: 42px;
+            }
+            .footer-button{
+                h2{
+                    font-size: 22px;
+                    height: 80px;
+                    width: 250px;
+                   padding-top:25px;
+                }
+            }
+        }
+    }
+   
+    .footer-links{
+        flex-direction: column;
+        padding-bottom: 100px;
+        padding-top: 150px;
+        .footer-logo-section{
+            padding-top: 150px;
+            padding-bottom: 0;
+            h1{
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            span{
+                font-size: 34px;
+            }
+        }
+        .footer-links-section{
+            flex-direction: column;
+            gap: 35px;
+            ul{
+                li{
+                    margin-bottom: 10px;
+                    a{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+        
+    }
+
+@media only screen and (max-width: 570px ){
+    .hero-section{
+        .hero-brands{
+            padding: 50px 0px;
+            ul{
+                justify-content: center;
+                li{
+                    img{
+                        width: 180px;
+                    }                
+                }
+            }
+        }
+    }
+}    
+
+@media only screen and (max-width: 400px ){
+    
+        .navbar{
+            height: 130px;
+        }
+    
+        .hero-section{
+            .hero-text{
+                padding-top: 30px;
+                h1{
+                    font-size: 26px;
+                    padding-left: 10px;
+                }
+            }
+    
+            .hero-brands{
+                ul{
+                    li{
+                        img{
+                            width: 120px;
+                        }                
+                    }
+                }
+            }
+    
+            .hero-para{
+                p{
+                    font-size: 20px;
+                }
+            }
+    
+            .hero-button{
+                padding-bottom: 80px;
+                h2{
+                    font-size: 14px;
+                     height: 50px;
+                     width: 180px;
+                    padding-top:15px;
+                }
+            }
+            
+        }
+    
+        .work{
+    
+            h3{
+                font-size: 22px;
+                padding-bottom: 20px;
+                padding-top: 60px;
+            }
+    
+            p{
+                font-size: 20px;
+                line-height: 25px;
+                padding-top: 0px;
+            }
+    
+            .work-button{
+                padding-bottom: 50px;
+                h2{
+                    font-size: 14px;
+                     height: 50px;
+                     width: 180px;
+                     padding-top:15px;
+                }
+            }
+    
+    
+            .eone-section, .thoughtspot-section{
+                width: 100%;
+                padding: 10px;
+                .eone-info, .thoughtspot-info{
+                    h4{
+                        margin-bottom: 5px;
+                        font-size: 25px;
+                        font-weight: 500;
+                    }
+                    p{
+                        font-size: 15px;
+                        line-height: 18px;
+                    }
+                    .buttons{
+                        padding-bottom: 20px;
+                        ul{
+                            li{
+                                a{
+                                    font-size: 14px;
+                                    padding: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .dual-section-1, .dual-section-2{
+                gap: 50px;
+                display: inline;
+                .pilot-section, .enode-section, .creatd-section, .crisp-section{
+                    width: 100%;
+                    padding: 20px;
+                    .pilot-info, .enode-info, .creatd-info, .crisp-info{
+                        h4{
+                            margin-bottom: 5px;
+                            font-size: 25px;
+                            font-weight: 500;
+                        }
+                        p{
+                            font-size: 15px;
+                            line-height: 18px;
+                        }
+                        .buttons{
+                            padding-bottom: 20px;
+                            ul{
+                                li{
+                                    a{
+                                        font-size: 14px;
+                                        padding: 3px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+        .approuch-article-parrent{
+                .approuch-section{
+                    h2{
+                        font-size: 22px;
+                    }
+                    p{
+                        font-size:28px;
+                    }
+    
+                    
+                    .approuch-video-info{
+                        gap: 20px;
+                        padding-top: 50px;
+                        padding-bottom: 50px;
+                            .approuch-info{
+                                p{
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                }
+                                .approuch-button{
+                                    margin-left: 20px;
+                                    margin-top: 40px;
+                                    h2{
+                                        font-size: 14px;
+                                         height: 40px;
+                                         width: 140px;
+                                         padding-top: 12px;
+                                        }
+                                    }    
+                            }
+                        }
+                    }
+               
+    
+            .articles-section{
+                h1{
+                    font-size:25px;
+                    padding-bottom: 20px;
+                    padding-top: 50px;
+                }
+                p{
+                    font-size: 18px;
+                    padding-top: 60px;
+                    line-height: 22px;
+                    padding-left: 20px;
+                    padding-bottom: 50px;
+                }
+               
+                .article-button{
+                   padding-bottom: 50px;
+                   padding-left: 20px;
+                   h2{
+                    font-size: 14px;
+                     height: 40px;
+                     width: 140px;
+                     padding-top: 12px;
+                    }
+                }
+                   
+                ul{
+                    flex-wrap: wrap;
+                    .Design{
+                        padding: 10px;
+                        h5{
+                            margin-bottom: 18px;
+                        }
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                    .ux-strategy,  .value-services{
+                        padding: 10px;
+                        h5{
+                            margin-bottom: 18px;
+                        }
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+    
+        }
+        
+        .footer{
+            .footer-info{
+                h2{
+                    font-size: 22px;
+                }
+                p{
+                    font-size: 28px;
+                }
+                .footer-button{
+                    h2{
+                        font-size: 14px;
+                        height: 50px;
+                        width: 180px;
+                       padding-top:15px;
+                    }
+                }
+            }
+        }
+       
+        .footer-links{
+            padding-bottom: 100px;
+            .footer-logo-section{
+                h1{
+                    font-size: 26px;
+                    margin-bottom: 20px;
+                }
+                span{
+                    font-size: 30px;
+                }
+            }
+            .footer-links-section{
+                flex-direction: column;
+                gap: 20px;
+                ul{
+                    li{
+                        margin-bottom: 5px;
+                        a{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    
+    
+    
+            
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
